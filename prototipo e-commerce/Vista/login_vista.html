@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+
+	<style type="text/css">
+		
+		form{
+			margin: 0 auto;
+			width: 300px;
+			background-color: #2980b9;
+			padding: 20px;
+			color: #fff;
+			border-radius: 3px;
+		}
+
+		.field{
+			border: solid 1px #ccc;
+			padding: 10px;
+			width: 280px;
+		}
+	</style>
+
+</head>
+<body>
+
+	<center><h3>LOGIN</h3></center>
+
+	<form action="../Controlador/login_controlador.php" method="POST">
+		<p>Usuario</p>
+		<input type="text" name="user" required="">
+		<p>Contraseña</p>
+		<input type="text" name="pass" required="">
+		<br><input type="submit" name="" value="Ingresar">
+	</form>
+	
+</body>
+</html>
